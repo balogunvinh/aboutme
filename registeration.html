@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTERATION</title>
+</head>
+<link rel="stylesheet" href="registeration.css">
+
+
+<body>
+    <!-- this is the header menue -->
+    <header>
+        <div class="header">
+            <ul class="top">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a target="_self" href="contact.html">CONTACT</a>
+                </li>
+                <li>
+                    <a target="_self" href="registeration.html">REGISTERATION</a>
+                </li>
+                <li>
+                    <a target="_self" href="login.html">LOGIN</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </header>
+    <main>
+        <div class="container">
+
+            <h1>Registeration </h1>
+            <Form class="user">
+
+                <div><label for="firstname">First Name</label>
+                    <input type="text" placeholder="First Name " required>
+                </div>
+                <div><label for="lastname">Last Name</label>
+                    <input type="text" placeholder="Last Name " required>
+                </div>
+                <div><label for="phone">Phone Number</label>
+                    <input type="number" placeholder="Phone Number" maxlength="11" required>
+                </div>
+                <div><label for="gender">Gender</label>
+                    <select name="Gender" id="Gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                </div>
+
+                <div><label for="countries">Countries</label>
+                    <select name="countries" id="countries">
+                                    <option value="allcountries"> Select Country</option>
+
+                                    <option value="AF">Afghanistan</option>
+                                    <option value="AX">Aland Islands</option>
+                                    <option value="AL">Albania</option>
+                                    <option value="DZ">Algeria</option>
+                                    <option value="AS">American Samoa</option>
+                                    <option value="AD">Andorra</option>
+                                    <option value="AO">Angola</option>
+                                    <option value="AI">Anguilla</option>
+                                    <option value="AQ">Antarctica</option>
+                                    <option value="AG">Antigua and Barbuda</option>
+                                </select>
+                </div>
+
+
+                <div>
+                    <label for="lastname">State/Province</label>
+                    <input type="text" placeholder="State/Province " required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter your email address " required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter your password " minlength="6" required>
+                </div>
+                <div>
+                    <label for="password">Confirm Password</label>
+                    <input type="password" placeholder="Enter your password " minlength="6" required>
+                    <br>
+                </div><br>
+                <div id="submit">
+                    <input type="submit" value="Submit">
+                </div>
+
+
+        </div>
+
+
+
+
+
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
